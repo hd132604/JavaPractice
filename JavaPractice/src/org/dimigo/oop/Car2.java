@@ -48,4 +48,5 @@ public class Car2 {
 	public int getPrice(){
 		return price;
 	}
+	
 }
