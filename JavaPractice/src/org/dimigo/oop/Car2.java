@@ -14,7 +14,7 @@ package org.dimigo.oop;
  * 
  * @author		: 김영남
  * @version		: 1.0
- */
+ */ 
 public class Car2 {
 
 	private String company;

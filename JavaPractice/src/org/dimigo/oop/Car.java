@@ -15,7 +15,7 @@ package org.dimigo.oop;
  * @author		: 김영남
  * @version		: 1.0
  */
-public class Car {
+public class Car {  
 
 	private String company="현대자동차";
 	private String model="제네시스";

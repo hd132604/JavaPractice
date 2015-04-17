@@ -42,7 +42,7 @@ public class Car3 {
 	public Car3(String company, String model,String color){
 		this(company,model,color,0);
 		
-	}
+	} 
 	
 	public String getCompany(){
 		return company;

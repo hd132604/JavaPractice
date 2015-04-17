@@ -21,7 +21,7 @@ public class CarTest {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		/*
+		/*  
 		Car car=new Car();
 		System.out.println("제조사명 : "+car.getCompany());
 		System.out.println("모델명 : "+car.getModel());
