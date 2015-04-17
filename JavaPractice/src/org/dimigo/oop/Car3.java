@@ -59,4 +59,5 @@ public class Car3 {
 	public int getPrice(){
 		return price;
 	}
+	
 }
