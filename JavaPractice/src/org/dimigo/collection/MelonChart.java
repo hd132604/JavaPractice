@@ -28,7 +28,7 @@ public class MelonChart {
 		list.add(new Music("바람이나 좀 쐐","개리"));
 		list.add(new Music("보통연애","박경"));
 		list.add(new Music("취향저격","iKon"));
-		System.out.println("-- << 멜론 챠트 >> --");
+		System.out.println("-- << 멜론 차트 >> --");
         printList(list);
         System.out.println("-- << 2위 곡 추가 >> --");
         list.add(new Music("레옹", "이유갓지"));
@@ -45,7 +45,7 @@ public class MelonChart {
         printList(list);
 	}
 	public static void printList(List<Music> list){
-		int count=0;
+		int count=1;
         for (Music music : list)
         {
            System.out.println(""+count+++". "+music.toString());
