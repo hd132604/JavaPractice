@@ -27,24 +27,10 @@ public class SmartPhone {
 		this.price=price;
 	}
 	public void turnOn(){
-		if(this instanceof IPhone){
-			IPhone I=(IPhone)this;
-			System.out.println(model+"의 전원을 켭니다.");
-		}
-		else if(this instanceof Galaxy){
-			Galaxy G=(Galaxy)this;
-			System.out.println(model+"의 전원을 켭니다.");
-		}
+		System.out.println(model+"의 전원을 켭니다.");
 	}
 	public void turnOff(){
-		if(this instanceof IPhone){
-			IPhone I=(IPhone)this;
-			System.out.println(model+"의 전원을 끕니다.");
-		}
-		else if(this instanceof Galaxy){
-			Galaxy G=(Galaxy)this;
-			System.out.println(model+"의 전원을 끕니다.");
-		}
+		System.out.println(model+"의 전원을 끕니다.");
 	}
 	
 	public void pay(){
