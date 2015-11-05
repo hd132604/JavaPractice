@@ -50,7 +50,7 @@ public class NaverSearch {
 	         ********************************************************/
 
 			Scanner scanner = new Scanner(System.in);
-			System.out.print("> 키워드를 입력하세요 =>");
+			System.out.print("키워드를 입력하세요 =>");
 			keyword = scanner.nextLine();
 			scanner.close();
 
@@ -96,11 +96,12 @@ public class NaverSearch {
 			int count =1;
 
 			try(
-				BufferedWriter bw = new BufferedWriter(new FileWriter("/Users/codertimo/Develop/IdeaProjects/JavaPractice/JavaPractice/files/movies.txt")))
+				BufferedWriter bw = new BufferedWriter(new FileWriter("files/movies.txt")))
 			{
 				for (Movie movie : movieList)
 				{
 					String string =  count++ + ". "+ movie.getTitle()+ " - " +movie.getActors()+"\n";
+					System.out.println(movie);
 					bw.write(string);
 				}
 			}
