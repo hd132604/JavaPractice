@@ -24,13 +24,11 @@ public class Runner extends Thread {
 		this.name = name;
 	}
 	public void run(){
-		int meter=100;
 		System.out.println(name+" 출발");
 		try{
 			for(int i=10;i>=0;i--){
 				Thread.sleep(1000);
-				System.out.println(name+" "+meter+"미터");
-				meter-=10;
+				System.out.println(name+" "+(i*10)+"미터");
 			}
 			
 		}catch(Exception e){
