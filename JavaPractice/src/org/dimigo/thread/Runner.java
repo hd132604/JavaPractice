@@ -27,7 +27,7 @@ public class Runner extends Thread {
 		int meter=100;
 		System.out.println(name+" 출발");
 		try{
-			for(int i=10;i>0;i--){
+			for(int i=10;i>=0;i--){
 				Thread.sleep(1000);
 				System.out.println(name+" "+meter+"미터");
 				meter-=10;
